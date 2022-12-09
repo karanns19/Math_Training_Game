@@ -1,0 +1,43 @@
+<!doctype HTML>
+<html>
+
+<head>
+	<title>codedamn HTML Playground</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,300&family=Jost:wght@300&family=Roboto:wght@300&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity = "sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+	<main>
+		<h1>Math Training Game</h1>
+		<!-- start writing your code (Step 1) -->
+        <div class="box">
+            <section class="sec1">
+                <p class="instruction">Choose the correct option</p>
+                <div id="operand1">45</div>
+                <div id="operator">+</div>
+                <div id="operand2">45</div>
+            </section>
+            <section class="sec2">
+                <button id="option1"></button>
+                <button id="option2"></button>
+                <button id="option3"></button>
+                <button id="option4"></button>
+                <div id="msgbox"></div>
+            </section>
+        </div>
+        <audio src="assets/correct.mp3" id="correctBeep"></audio>
+        <audio src="assets/wrong.mp3" id="wrongBeep"></audio>
+		
+	</main>
+	<script src="/script.js"></script>
+</body>
+</html>
